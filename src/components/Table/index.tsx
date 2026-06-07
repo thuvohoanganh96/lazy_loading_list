@@ -67,7 +67,7 @@ export default function Table({ data, setData }: tableProps) {
             <p className={typo.content_m}>{user.login}</p>
           </div>
           <div>
-            <a className={typo.content_m} href={user.repos_url} target={"_blank"}>
+            <a className={typo.content_m} href={user.repos_url} target={"_blank"} rel="noreferrer">
               {user.repos_url}
             </a>
           </div>
